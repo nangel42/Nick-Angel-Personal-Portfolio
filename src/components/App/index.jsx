@@ -1,17 +1,34 @@
 import { useState } from 'react'
+import Nav from '../Nav'
+import Welcome from '../Welcome'
+import About from '../About'
+import Projects from '../Projects'
+import Contact from '../Contact'
 
 
-function App() {
+
+export default function App() {
 
   return (
     <>
 
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <section>
+        <Nav />
+      </section>
+
+      <div className="bg-gray-900">
+        <Welcome />
+
+        <About />
+        <br />
+        <Projects />
+        <br />
+        <Contact />
+      </div>
+
 
     </>
   )
 }
 
-export default App
+
