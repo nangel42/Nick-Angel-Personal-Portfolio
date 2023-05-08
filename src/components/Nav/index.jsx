@@ -24,7 +24,7 @@ export default function Nav() {
         </h1>
                 <ul className="flex items-center justify-center space-x-4">
                     <li className="mx-2">
-                        <a href="#" className="text-blue-400 hover:text-white">About</a>
+                        <a href="/About" className="text-blue-400 hover:text-white">About</a>
                     </li>
 
                     {/* For when I one day have a tech Job :) */}

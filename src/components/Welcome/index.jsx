@@ -10,7 +10,7 @@ export default function Welcome() {
   return (
     <div className="bg-gray-900 flex items-center justify-center h-screen ">
 
-      <div className={`text-2xl text-center font-bold text-white`}>
+      <div className="text-2xl text-center font-bold text-white">
 
         <p className={`transition-opacity duration-1000 ease-in-out delay-100 ${boot ? "opacity-100" : "opacity-0"}`}>
           Welcome to
@@ -44,27 +44,4 @@ export default function Welcome() {
     </div>
   )
 }
-
-// return (
-//   <div className="bg-gray-900 flex items-center justify-center h-screen">
-//     <h1 className={`text-2xl text-center font-bold text-white ${isLoaded ? "opacity-100 transition-opacity duration-1000 ease-in-out" : "opacity-0"}`}>
-//       Welcome to
-//       <div className="text-5xl">
-//         <span style={{ color: '#FFFF00' }}>{'{'}</span>
-//         <span style={{ color: '#F92672' }}> Nick </span>
-//         <span style={{ color: '#FFFF00' }}>{'}'}</span>
-//         <span style={{ color: '#FFFFFF' }}> </span>
-//         <span style={{ color: '#66D9EF' }}>Script</span>
-//         <span style={{ color: '#FFFF00' }}>!</span>
-//       </div>
-//       <div className="text-2xl">
-//         Nick's Personal Website
-//       </div>
-//       <div className="text-xl">
-//         {isLoaded ? "I am a full-stack developer looking for opportunities to grow and create awesome web applications." : ""}
-//       </div>
-//     </h1>
-//   </div>
-// );
-// }
 
