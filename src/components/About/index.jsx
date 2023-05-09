@@ -1,3 +1,5 @@
+import headshot from '../../assets/NickAHeadshot.png'
+
 export default function About() {
 
     return (
@@ -27,6 +29,8 @@ export default function About() {
           My passion for technology and software engineering drives me to constantly learn and work on new and exciting projects. 
           I am excited to contribute my skills and expertise to innovative and impactful software development initiatives.
         </p>
+
+        <img src={headshot} alt="Nicolas Angel" className="rounded-full mx-auto m-4" width="300" height="300"></img>
   
       </div>
     )
