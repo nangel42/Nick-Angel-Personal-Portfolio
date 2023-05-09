@@ -1,4 +1,6 @@
 import headshot from '../../assets/NickAHeadshot.png'
+import GitHub from '../../assets/GitHub-logo-white.png'
+import LinkedIn from '../../assets/linkedin.png'
 
 export default function About() {
 
@@ -31,6 +33,8 @@ export default function About() {
         </p>
 
         <img src={headshot} alt="Nicolas Angel" className="rounded-full mx-auto m-4" width="300" height="300"></img>
+        <img src={GitHub} alt="Nicolas Angel" className="rounded-full mx-auto m-4" width="300" height="300"></img>
+        <img src={LinkedIn} alt="Nicolas Angel" className="rounded-full mx-auto m-4" width="300" height="300"></img>
   
       </div>
     )
