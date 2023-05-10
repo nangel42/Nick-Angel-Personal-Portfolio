@@ -132,11 +132,10 @@ export default function Projects() {
                     <img src={LinkIcon} className="my-4 object-contain w-10 h-10 md:w-20 md:h-12" alt="Julios Mexican Recipes Link" />
                   </a>
                 </div>
-              
-              {/* Link to Deployed App With Picture*/}
-              <a href="https://julios-mexican-recipes.herokuapp.com/" target="_blank">
-                <img src={JMR} className="mx-auto object-cover w-full md:w-3/4 h-auto md:h-3/4" alt="Julio's Mexican Recipes" />
-              </a>
+                {/* Link to Deployed App With Picture*/}
+                <a href="https://julios-mexican-recipes.herokuapp.com/" target="_blank">
+                  <img src={JMR} className="mx-auto object-cover w-full md:w-3/4 h-auto md:h-3/4" alt="Julio's Mexican Recipes" />
+                </a>
               </div>
             </div>
 
