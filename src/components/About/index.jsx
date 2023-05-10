@@ -8,9 +8,8 @@ import headshot04 from '../../assets/NickAHeadshot04.png'
 import GitHub from '../../assets/GitHub-logo-white.png'
 import LinkedIn from '../../assets/linkedin.png'
 
-
 export default function About() {
-
+  // About Me Images
   const nickImgs = [
     {
       id: 1,
@@ -29,7 +28,7 @@ export default function About() {
       src: headshot04
     }
   ];
-
+  // Javascript that works the image carousel
   const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
   const prevImg = () => {
@@ -44,28 +43,25 @@ export default function About() {
     setCurrentImgIndex(index);
   };
 
-
-
     return (
-      // <div className="grid grid-cols-2 bg-gray-900">
-      //   <div className="flex flex-col justify-center p-8 ml-8">
-      //     <h1 className="text-4xl md:text-5xl font-bold text-blue-400 text-center mb-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-gray-900">
+        {/* Column one area */}
         <div className="flex flex-col justify-center p-8 sm:ml-8">
+          {/* Header */}
           <h1 className="text-5xl md:text-5xl font-bold text-blue-400 text-center mb-4">
             <span style={{ color: '#D4D4D4' }}>{'<'}</span>
             <span style={{ color: '#5CCFE6' }}> About </span>
             <span style={{ color: '#D4D4D4' }}>{'>'}</span>
             <span style={{ color: '#D4D4D4' }}> </span>
             <div className="sm:hidden -mb-8">
-                    <br />
+              <br />
             </div>
             <span style={{ color: '#D4D4D4' }}>{'<'}</span>
             <span style={{ color: '#D4D4D4' }}>{'/'}</span>
             <span style={{ color: '#FFA500' }}> Me </span>
             <span style={{ color: '#D4D4D4' }}>{'>'}</span>
           </h1>
-
+          {/* About Me */}
           <div className= "max-w-6xl mx-auto bg-gray-300 bg-opacity-60 rounded-md p-4 my-8">
             <p className="text-xl text-black mb-8">
               My name is Nicolas Angel and I am a Full Stack Software Engineer currently residing in sunny Arizona. 
@@ -89,20 +85,21 @@ export default function About() {
             </p>
           </div>
         </div>
-
+        {/* About Me Carousel */}
         <div className="flex flex-col justify-center items-center max-w-[500px] h-[700px] w-full m-auto py-16 px-4 relative group">
           <div 
             style={{backgroundImage: `url(${nickImgs[currentImgIndex].src})`}} 
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500" 
           >
           </div>
-
+          {/* Buttons for Carousel */}
           <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl text-white'>
             <BsChevronCompactLeft onClick={prevImg} size={30}/>
           </div>
           <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl text-white'>
             <BsChevronCompactRight onClick={nextImg} size={30}/>
           </div>
+          {/* Dots for Carousel */}
           <div className="flex top-4 justify-center py-2">
             {nickImgs.map((img, index) => (
               <RxDotFilled
@@ -113,13 +110,12 @@ export default function About() {
               />
             ))}
           </div>
-          
+          {/* Social Media Links */}
           <div className="flex justify-center ">
             <a href="https://github.com/nangel42" target="_blank"><img src={GitHub} alt="Nicolas Angel GitHub" className="rounded-full m-2" width="100" height="100"></img></a>
             <a href="https://www.linkedin.com/in/nicolasangel/" target="_blank"><img src={LinkedIn} alt="Nicolas Angel LinkedIn" className="rounded-full m-2" width="60" height="60"></img></a>
           </div>
         </div>
-
       </div>
     )
   }
