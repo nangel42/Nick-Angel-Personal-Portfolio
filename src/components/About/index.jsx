@@ -31,7 +31,7 @@ export default function About() {
 
   // console.log(nickImgs)
 
-  const [currentImgIndex, setCurrentImgIndex] = useState(1);
+  const [currentImgIndex, setCurrentImgIndex] = useState(0);
 
   // console.log(currentImgIndex)
 
