@@ -30,19 +30,21 @@ export default function Contact() {
           <h2 className="text-3xl font-bold text-white mt-4">
             Drop me a line!
           </h2>
-          {/* Paragraph */}
-          <div className="max-w-xl mx-auto px-4">
-            <p className="text-xl md:text-2xl text-center text-white mt-4">
-              I am always looking for new opportunities to learn and grow as a developer! 
-            </p>
-            <p className="text-xl md:text-2xl text-center text-white mt-4">
-              If you have any questions or would like to get in touch, please feel free to reach out to me at:
-            </p>
+          <div className= "max-w-6xl mx-4 bg-gray-300 bg-opacity-60 rounded-md p-4 my-8 text-center">
+            {/* Paragraph */}
+            <div className="max-w-xl mx-auto px-4">
+              <p className="text-xl md:text-2xl text-center text-black mt-4">
+                I am always looking for new opportunities to learn and grow as a developer! 
+              </p>
+              <p className="text-xl md:text-2xl text-center text-black mt-4">
+                If you have any questions or would like to get in touch, please feel free to reach out to me at:
+              </p>
+            </div>
+            {/* Email Button */}
+            <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
+              Email
+            </a>
           </div>
-          {/* Email Button */}
-          <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
-            Email
-          </a>
           {/* Social Media Icons */}
           <div className="flex justify-center mt-8 mb-10">
             <a href="https://github.com/nangel42" target="_blank">
