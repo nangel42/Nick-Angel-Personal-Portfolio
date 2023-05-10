@@ -4,37 +4,34 @@ import BXB from '../../assets/LegoGuys.png';
 import GitHub from '../../assets/GitHub-logo-white.png';
 import LinkIcon from '../../assets/linkIcon.png';
 
-
 export default function Projects() {
-
     return (
       <div className="bg-gray-900">
-        
-        {/* Header */}
         <div className="text-center mt-8">
-        <h1 className="text-5xl md:text-5xl font-bold text-center">
-          <div>
-            <span style={{ color: '#C586C0' }}> Nick's </span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#569CD6' }}>Code</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <div className="sm:hidden -mb-8">
-                  <br />
+          {/* Header */}
+          <h1 className="text-5xl md:text-5xl font-bold text-center">
+            <div>
+              <span style={{ color: '#C586C0' }}> Nick's </span>
+              <span style={{ color: '#FFFFFF' }}> </span>
+              <span style={{ color: '#569CD6' }}>Code</span>
+              <span style={{ color: '#FFFFFF' }}> </span>
+              <div className="sm:hidden -mb-8">
+                    <br />
+              </div>
+              <span style={{ color: '#FFFF00' }}>{'('}</span>
+              <span style={{ color: '#C586C0' }}>{'{'}</span>
+              <span style={{ color: '#FFFFFF' }}> </span>
+              <span style={{ color: '#33AA5B' }}> Adventures</span>
+              <span style={{ color: '#569CD6 ' }}>{'!'}</span>
+              <span style={{ color: '#FFFFFF' }}> </span>
+              <span style={{ color: '#C586C0' }}>{'}'}</span>
+              <span style={{ color: '#FFFF00' }}>{')'}</span>
             </div>
-            <span style={{ color: '#FFFF00' }}>{'('}</span>
-            <span style={{ color: '#C586C0' }}>{'{'}</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#33AA5B' }}> Adventures</span>
-            <span style={{ color: '#569CD6 ' }}>{'!'}</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#C586C0' }}>{'}'}</span>
-            <span style={{ color: '#FFFF00' }}>{')'}</span>
-          </div>
-        </h1>
-        <br />
-
-          {/* Star Trivia */}
+          </h1>
+          <br />
+          {/* Projects */}
           <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
+            {/* Star Trivia */}
             <div className="w-full overflow-hidden aspect-w-1 aspect-h-1 p-4">
               <div className="max-w-6xl mx-auto bg-gray-300 bg-opacity-60 rounded-md p-4 my-8">
                 {/* Title */}
@@ -73,7 +70,6 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-
             {/* Brick By Brick */}
             <div className="w-full overflow-hidden aspect-w-1 aspect-h-1 p-4">
               <div className="max-w-6xl mx-auto bg-gray-300 bg-opacity-60 rounded-md p-4 my-8">
@@ -113,7 +109,6 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-
             {/* Julio's Mexican Recipes */}
             <div className="w-full overflow-hidden aspect-w-1 aspect-h-1 p-4">
               <div className="max-w-6xl mx-auto bg-gray-300 bg-opacity-60 rounded-md p-4 my-8">
@@ -154,11 +149,8 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-
           </div>
         </div>
-
-  
       </div>
     )
   }

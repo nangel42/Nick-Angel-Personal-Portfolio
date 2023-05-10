@@ -2,12 +2,10 @@ import GitHub from '../../assets/GitHub-logo-white.png';
 import LinkedIn from "../../assets/linkedin.png";
 
 export default function Contact() {
-
     return (
       <div className="bg-gray-900">
-  
         <div className="flex flex-col items-center">
-
+          {/* Main Header */}
           <div className="flex flex-wrap sm:flex-nowrap">
             <h1 className="text-5xl md:text-5xl font-bold text-center mb-8">
               <div>
@@ -28,11 +26,11 @@ export default function Contact() {
               </div>
             </h1>
           </div>
-
+          {/* Second Header */}
           <h2 className="text-3xl font-bold text-white mt-4">
             Drop me a line!
           </h2>
-
+          {/* Paragraph */}
           <div className="max-w-xl mx-auto px-4">
             <p className="text-xl md:text-2xl text-center text-white mt-4">
               I am always looking for new opportunities to learn and grow as a developer! 
@@ -41,12 +39,11 @@ export default function Contact() {
               If you have any questions or would like to get in touch, please feel free to reach out to me at:
             </p>
           </div>
-
+          {/* Email Button */}
           <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
             Email
           </a>
-
-
+          {/* Social Media Icons */}
           <div className="flex justify-center mt-8 mb-10">
             <a href="https://github.com/nangel42" target="_blank">
               <img src={GitHub} className="mx-2 object-contain w-25 h-16 md:w-25 md:h-20" alt="GitHub"/>
@@ -57,8 +54,6 @@ export default function Contact() {
             </a>
           </div>
         </div>
-
-  
       </div>
     )
   }
