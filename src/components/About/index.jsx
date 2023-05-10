@@ -51,9 +51,16 @@ export default function About() {
 
     return (
       <div className="grid grid-cols-2 bg-gray-900">
-        <div className="flex flex-col justify-center p-8">
-          <h1 className="text-3xl font-bold underline text-white text-center mb-4">
-            About Me
+        <div className="flex flex-col justify-center p-8 ml-8">
+          <h1 className="text-3xl font-bold text-blue-400 text-center mb-4">
+            <span style={{ color: '#D4D4D4' }}>{'<'}</span>
+            <span style={{ color: '#5CCFE6' }}> About </span>
+            <span style={{ color: '#D4D4D4' }}>{'>'}</span>
+            <span style={{ color: '#D4D4D4' }}> </span>
+            <span style={{ color: '#D4D4D4' }}>{'<'}</span>
+            <span style={{ color: '#D4D4D4' }}>{'/'}</span>
+            <span style={{ color: '#FFA500' }}> Me </span>
+            <span style={{ color: '#D4D4D4' }}>{'>'}</span>
           </h1>
 
           <p className="text-xl text-white mb-8">
@@ -78,31 +85,23 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-center items-center max-w-[600px] h-[700px] w-full m-auto py-16 px-4 relative group">
-        <div 
-           style={{backgroundImage: `url(${nickImgs[currentImgIndex].src})`}} 
-          className="w-full h-full rounded-2xl bg-center bg-cover duration-500" 
+        <div className="flex flex-col justify-center items-center max-w-[500px] h-[700px] w-full m-auto py-16 px-4 relative group">
+          <div 
+            style={{backgroundImage: `url(${nickImgs[currentImgIndex].src})`}} 
+            className="w-full h-full rounded-2xl bg-center bg-cover duration-500" 
           >
-
-
-
-          {/* <img src={headshot01} alt="Nicolas Angel" className="rounded-full mx-auto m-4" width="400" height="300"></img>
-          <img src={headshot02} alt="Nicolas Angel" className="images rounded-full mx-auto m-4" width="400" height="300"></img>
-          <img src={headshot03} alt="Nicolas Angel" className="images rounded-full mx-auto m-4" width="400" height="300"></img>
-          <img src={headshot04} alt="Nicolas Angel" className="images rounded-full mx-auto m-4" width="400" height="300"></img> */}
           </div>
 
-          <div className='hidden group-hover:block absolute top-[50%] =translate-x-0 translate-y-[-50%] left-5 text-2xl text-white'>
+          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl text-white'>
             <BsChevronCompactLeft onClick={prevImg} size={30}/>
           </div>
-          <div className='hidden group-hover:block absolute top-[50%] =translate-x-0 translate-y-[-50%] right-5 text-2xl text-white'>
+          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl text-white'>
             <BsChevronCompactRight onClick={nextImg} size={30}/>
           </div>
           
-
           <div className="flex justify-center ">
-            <img src={GitHub} alt="Nicolas Angel GitHub" className="rounded-full m-2" width="100" height="100"></img>
-            <img src={LinkedIn} alt="Nicolas Angel LinkedIn" className="rounded-full m-2" width="60" height="60"></img>
+            <a href="https://github.com/nangel42" target="_blank"><img src={GitHub} alt="Nicolas Angel GitHub" className="rounded-full m-2" width="100" height="100"></img></a>
+            <a href="https://www.linkedin.com/in/nicolasangel/" target="_blank"><img src={LinkedIn} alt="Nicolas Angel LinkedIn" className="rounded-full m-2" width="60" height="60"></img></a>
           </div>
         </div>
 

@@ -19,6 +19,7 @@ export default function Nav() {
                 <span style={{ color: '#FFFF00' }}>{'}'}</span>
                 <span style={{ color: '#FFFFFF' }}> </span>
                 <span style={{ color: '#66D9EF' }}>Script</span>
+                <span style={{ color: '#FFFF00' }}>!</span>
             </div>
             
         </h1>
