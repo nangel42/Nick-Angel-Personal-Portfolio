@@ -12,13 +12,15 @@ export default function Projects() {
         
         {/* Header */}
         <div className="text-center mt-8">
-        <h1 className="text-3xl md:text-5xl font-bold text-center">
+        <h1 className="text-5xl md:text-5xl font-bold text-center">
           <div>
             <span style={{ color: '#C586C0' }}> Nick's </span>
             <span style={{ color: '#FFFFFF' }}> </span>
             <span style={{ color: '#569CD6' }}>Code</span>
             <span style={{ color: '#FFFFFF' }}> </span>
-            <br />
+            <div className="sm:hidden -mb-8">
+                  <br />
+            </div>
             <span style={{ color: '#FFFF00' }}>{'('}</span>
             <span style={{ color: '#C586C0' }}>{'{'}</span>
             <span style={{ color: '#FFFFFF' }}> </span>

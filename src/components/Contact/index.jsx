@@ -7,26 +7,27 @@ export default function Contact() {
       <div className="bg-gray-900">
   
         <div className="flex flex-col items-center">
-          <h1 className="text-4xl font-bold underline text-white">
-            Lets Work Together
-          </h1>
-          {/* <h1 className="text-3xl md:text-5xl font-bold text-center">
-          <div>
-            <span style={{ color: '#C586C0' }}> Nick's </span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#569CD6' }}>Code</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <br />
-            <span style={{ color: '#FFFF00' }}>{'('}</span>
-            <span style={{ color: '#C586C0' }}>{'{'}</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#33AA5B' }}> Adventures</span>
-            <span style={{ color: '#569CD6 ' }}>{'!'}</span>
-            <span style={{ color: '#FFFFFF' }}> </span>
-            <span style={{ color: '#C586C0' }}>{'}'}</span>
-            <span style={{ color: '#FFFF00' }}>{')'}</span>
+
+          <div className="flex flex-wrap sm:flex-nowrap">
+            <h1 className="text-5xl md:text-5xl font-bold text-center mb-8">
+              <div>
+                <span style={{ color: '#C586C0' }}> Let's </span>
+                <span style={{ color: '#FFFFFF' }}> </span>
+                <span style={{ color: '#FFB862' }}>Work</span>
+                <span style={{ color: '#FFFFFF' }}> </span>
+                <div className="sm:hidden -mb-8">
+                  <br />
+                </div>
+                <span style={{ color: '#FFFF00' }}>{'('}</span>
+                <span style={{ color: '#FFFFFF' }}> </span>
+                <span style={{ color: '#569CD6' }}> Together</span>
+                <span style={{ color: '#569CD6 ' }}>{'!'}</span>
+                <span style={{ color: '#FFFFFF' }}> </span>
+                <span style={{ color: '#FFFF00' }}>{')'}</span>
+                <span style={{ color: '#D4D4D4' }}>{':'}</span>
+              </div>
+            </h1>
           </div>
-        </h1> */}
 
           <h2 className="text-3xl font-bold text-white mt-4">
             Drop me a line!
