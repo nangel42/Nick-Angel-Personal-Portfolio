@@ -4,6 +4,8 @@ import LinkedIn from "../../assets/linkedin.png";
 export default function Contact() {
     return (
       <div className="bg-gray-900">
+        {/* Needed for Nav Bar Scroll */}
+        <br id="contact-section"/>
         <div className="flex flex-col items-center">
           {/* Main Header */}
           <div className="flex flex-wrap sm:flex-nowrap">
