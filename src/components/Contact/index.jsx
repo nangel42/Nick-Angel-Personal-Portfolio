@@ -1,5 +1,5 @@
-import GitHub from '../../assets/GitHub-logo-white.png';
-import LinkedIn from "../../assets/linkedin.png";
+import GitHub from '../../assets/images/GitHub-logo-white.png';
+import LinkedIn from "../../assets/images/linkedin.png";
 
 export default function Contact() {
     return (

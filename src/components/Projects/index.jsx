@@ -1,8 +1,8 @@
-import JMR from '../../assets/JuliosMexicanRecipes.png';
-import SWT from '../../assets/DarthVader.gif';
-import BXB from '../../assets/LegoGuys.png';
-import GitHub from '../../assets/GitHub-logo-white.png';
-import LinkIcon from '../../assets/linkIcon.png';
+import JMR from '../../assets/images/JuliosMexicanRecipes.png';
+import SWT from '../../assets/images/DarthVader.gif';
+import BXB from '../../assets/images/LegoGuys.png';
+import GitHub from '../../assets/images/GitHub-logo-white.png';
+import LinkIcon from '../../assets/images/linkIcon.png';
 
 export default function Projects() {
     return (

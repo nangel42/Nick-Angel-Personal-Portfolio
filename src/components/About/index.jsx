@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
-import headshot01 from '../../assets/NickAHeadshot.png'
-import headshot02 from '../../assets/NickAHeadshot02.png'
-import headshot03 from '../../assets/NickAHeadshot03.png'
-import headshot04 from '../../assets/NickAHeadshot04.png'
-import GitHub from '../../assets/GitHub-logo-white.png'
-import LinkedIn from '../../assets/linkedin.png'
+import headshot01 from '../../assets/images/NickAHeadshot.png'
+import headshot02 from '../../assets/images/NickAHeadshot02.png'
+import headshot03 from '../../assets/images/NickAHeadshot03.png'
+import headshot04 from '../../assets/images/NickAHeadshot04.png'
+import GitHub from '../../assets/images/GitHub-logo-white.png'
+import LinkedIn from '../../assets/images/linkedin.png'
 
 export default function About() {
   // About Me Images

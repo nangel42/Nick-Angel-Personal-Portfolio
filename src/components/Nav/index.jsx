@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Resume from '../../assets/Nicolas Angel Resume 3-23.pdf'
+import Resume from '../../assets/docs/Nicolas Angel Resume 3-23.pdf'
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Nav() {
