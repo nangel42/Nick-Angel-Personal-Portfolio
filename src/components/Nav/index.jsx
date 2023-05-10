@@ -15,13 +15,11 @@ export default function Nav() {
             <div>
                 <span style={{ color: '#FFFF00' }}>{'{'}</span>
                 <span style={{ color: '#F92672' }}> Nick </span>
-                {/* <span style={{ color: '#A6E22E' }}>{'}'}</span> */}
                 <span style={{ color: '#FFFF00' }}>{'}'}</span>
                 <span style={{ color: '#FFFFFF' }}> </span>
                 <span style={{ color: '#66D9EF' }}>Script</span>
                 <span style={{ color: '#FFFF00' }}>!</span>
             </div>
-            
         </h1>
                 <ul className="flex items-center justify-center space-x-4">
                     <li className="mx-2">

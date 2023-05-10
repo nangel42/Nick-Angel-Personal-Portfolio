@@ -52,7 +52,7 @@ export default function About() {
     return (
       <div className="grid grid-cols-2 bg-gray-900">
         <div className="flex flex-col justify-center p-8 ml-8">
-          <h1 className="text-3xl font-bold text-blue-400 text-center mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-blue-400 text-center mb-4">
             <span style={{ color: '#D4D4D4' }}>{'<'}</span>
             <span style={{ color: '#5CCFE6' }}> About </span>
             <span style={{ color: '#D4D4D4' }}>{'>'}</span>
@@ -62,6 +62,7 @@ export default function About() {
             <span style={{ color: '#FFA500' }}> Me </span>
             <span style={{ color: '#D4D4D4' }}>{'>'}</span>
           </h1>
+
 
           <p className="text-xl text-white mb-8">
             My name is Nicolas Angel and I am a Full Stack Software Engineer currently residing in sunny Arizona. 

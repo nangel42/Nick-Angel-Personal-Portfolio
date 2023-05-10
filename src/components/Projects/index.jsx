@@ -12,10 +12,24 @@ export default function Projects() {
         
         {/* Header */}
         <div className="text-center mt-8">
-          <h1 className="text-3xl font-bold text-white mb-4">
-            Nicks Code Adventures!
-          </h1>
-          <br />
+        <h1 className="text-3xl md:text-5xl font-bold text-center">
+          <div>
+            <span style={{ color: '#C586C0' }}> Nick's </span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#569CD6' }}>Code</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <br />
+            <span style={{ color: '#FFFF00' }}>{'('}</span>
+            <span style={{ color: '#C586C0' }}>{'{'}</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#33AA5B' }}> Adventures</span>
+            <span style={{ color: '#569CD6 ' }}>{'!'}</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#C586C0' }}>{'}'}</span>
+            <span style={{ color: '#FFFF00' }}>{')'}</span>
+          </div>
+        </h1>
+        <br />
 
           {/* Star Trivia */}
           <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
@@ -43,7 +57,7 @@ export default function Projects() {
                   <span className="bg-blue-400 p-2 mb-2">Vite</span>
                 </p>
                 {/* Icon Links */}
-                <div className="flex justify-center">
+                <div className="flex justify-center space-x-4 md:space-x-8">
                   <a href="https://github.com/nangel42/Star-Wars-Quiz-App" target="_blank">
                     <img src={GitHub} className="my-4 object-contain w-20 h-10 md:w-20 md:h-12" alt="Star Trivia! GitHub" />
                   </a>
@@ -53,7 +67,7 @@ export default function Projects() {
                 </div>
                 {/* Link to Deployed App With Picture*/}
                 <a href="https://star-wars-trivia-game.herokuapp.com/" target="_blank">
-                  <img src={SWT} className="mx-auto object-cover w-full md:w-3/4 h-auto md:h-3/4" alt="Star Trivia!" />
+                  <img src={SWT} className="mx-auto object-contain w-full md:w-3/4 h-auto md:h-3/4" alt="Star Trivia!" />
                 </a>
               </div>
             </div>
@@ -83,7 +97,7 @@ export default function Projects() {
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">PostgreSQL</span>
                 </p>
                 {/* Icon Links */}
-                <div className="flex justify-center">
+                <div className="flex justify-center space-x-4 md:space-x-8">
                   <a href="https://github.com/jimcreel/BrickByBrick" target="_blank">
                     <img src={GitHub} className="my-4 object-contain w-20 h-10 md:w-20 md:h-12" alt="Brick by Brick GitHub" />
                   </a>
@@ -93,7 +107,7 @@ export default function Projects() {
                 </div>
                 {/* Link to Deployed App With Picture*/}
                 <a href="https://brickbybrick.herokuapp.com/" target="_blank">
-                  <img src={BXB} className="mx-auto object-cover w-full md:w-3/4 h-auto md:h-3/4" alt="Brick by Brick" />
+                  <img src={BXB} className="mx-auto object-contain w-full md:w-3/4 h-auto md:h-3/4" alt="Brick by Brick" />
                 </a>
               </div>
             </div>
@@ -124,7 +138,7 @@ export default function Projects() {
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Express</span>
                 </p>
                 {/* Icon Links */}
-                <div className="flex justify-center">
+                <div className="flex justify-center space-x-4 md:space-x-8">
                   <a href="https://github.com/nangel42/Julios-Mexican-Recipes" target="_blank">
                     <img src={GitHub} className="my-4 object-contain w-20 h-10 md:w-20 md:h-12" alt="Julios Mexican Recipes GitHub" />
                   </a>
@@ -134,7 +148,7 @@ export default function Projects() {
                 </div>
                 {/* Link to Deployed App With Picture*/}
                 <a href="https://julios-mexican-recipes.herokuapp.com/" target="_blank">
-                  <img src={JMR} className="mx-auto object-cover w-full md:w-3/4 h-auto md:h-3/4" alt="Julio's Mexican Recipes" />
+                  <img src={JMR} className="mx-auto object-contain w-full md:w-3/4 h-auto md:h-3/4" alt="Julio's Mexican Recipes" />
                 </a>
               </div>
             </div>

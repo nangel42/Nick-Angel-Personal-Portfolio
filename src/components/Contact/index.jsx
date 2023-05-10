@@ -6,22 +6,57 @@ export default function Contact() {
     return (
       <div className="bg-gray-900">
   
-      <h1 className="text-3xl font-bold underline text-white">
-        Contact Me!
-      </h1>
-      
-      <h2 className="text-3xl font-bold text-white">
-        I am always looking for new opportunities to learn and grow as a developer. 
-        If you have any questions or would like to get in touch, please feel free to reach out to me at:
-      </h2>
+        <div className="flex flex-col items-center">
+          <h1 className="text-4xl font-bold underline text-white">
+            Lets Work Together
+          </h1>
+          {/* <h1 className="text-3xl md:text-5xl font-bold text-center">
+          <div>
+            <span style={{ color: '#C586C0' }}> Nick's </span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#569CD6' }}>Code</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <br />
+            <span style={{ color: '#FFFF00' }}>{'('}</span>
+            <span style={{ color: '#C586C0' }}>{'{'}</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#33AA5B' }}> Adventures</span>
+            <span style={{ color: '#569CD6 ' }}>{'!'}</span>
+            <span style={{ color: '#FFFFFF' }}> </span>
+            <span style={{ color: '#C586C0' }}>{'}'}</span>
+            <span style={{ color: '#FFFF00' }}>{')'}</span>
+          </div>
+        </h1> */}
 
-      <a href="https://github.com/nangel42" target="_blank">
-        <img src={GitHub}/>
-      </a>
+          <h2 className="text-3xl font-bold text-white mt-4">
+            Drop me a line!
+          </h2>
 
-      <a href="https://www.linkedin.com/in/nicolasangel/" target="_blank">
-        <img src={LinkedIn}/>
-      </a>
+          <div className="max-w-xl mx-auto px-4">
+            <p className="text-xl md:text-2xl text-center text-white mt-4">
+              I am always looking for new opportunities to learn and grow as a developer! 
+            </p>
+            <p className="text-xl md:text-2xl text-center text-white mt-4">
+              If you have any questions or would like to get in touch, please feel free to reach out to me at:
+            </p>
+          </div>
+
+          <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
+            Email
+          </a>
+
+
+          <div className="flex justify-center mt-8 mb-10">
+            <a href="https://github.com/nangel42" target="_blank">
+              <img src={GitHub} className="mx-2 object-contain w-25 h-16 md:w-25 md:h-20" alt="GitHub"/>
+            </a>
+
+            <a href="https://www.linkedin.com/in/nicolasangel/" target="_blank">
+              <img src={LinkedIn} className="mx-2 object-contain w-16 h-16 md:w-20 md:h-20" alt="LinkedIn"/>
+            </a>
+          </div>
+        </div>
+
   
       </div>
     )
