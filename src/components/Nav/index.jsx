@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 export default function Nav() {
-
+    // Nav Elements
     const navSections = [
         {
           name: 'About',
@@ -37,8 +37,9 @@ export default function Nav() {
 
 return (
     <div className="bg-gray-700">
+    {/* Nav Bar */}
       <nav className="flex flex-col md:flex-row justify-between p-4 bg-gray-700">
-  
+        {/* Nick Script Logo */}
         <div className="flex items-center">
           <h1 className="text-3xl font-bold">
             <div>
@@ -51,7 +52,7 @@ return (
             </div>
           </h1>
         </div>
-  
+        {/* Controls Nav Elements with Hamburger Menu */}
         <div className={`md:flex flex-col md:flex-row items-center md:items-stretch mt-4 md:mt-0 ${!hamOpen ? 'hidden' : 'flex flex-col items-center'}`}>
           <ul className="flex items-center space-x-4 lg:flex">
             {navSections.map((section) => (
@@ -59,6 +60,7 @@ return (
                 key={section.id}
                 className={`mx-2 ${location.pathname === `/${section.name}` ? 'text-white' : ''}`}
               >
+                {/* Nav Bar Elements Map and Scroll */}
                 <Link
                   to={`/${section.name}`}
                   onClick={() => {
@@ -71,7 +73,7 @@ return (
                 </Link>
               </li>
             ))}
-  
+            {/* Resume Link */}
             <li className="mx-2 bg-gray-500 px-4 py-2 rounded-lg">
               <a href={Resume} className="text-lime-400 font-bold hover:text-white" target="_blank" rel="noopener noreferrer">
                 Resume
@@ -79,7 +81,7 @@ return (
             </li>
           </ul>
         </div>
-  
+        {/* Hamburger Menu */}
         <div className={`md:hidden ml-auto -mt-7`}>
           <button className="text-white" onClick={() => setHamOpen(!hamOpen)}>
             {hamOpen ? <FiX /> : <FiMenu />}
