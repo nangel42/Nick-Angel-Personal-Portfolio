@@ -28,12 +28,16 @@ export default function Nav() {
 
     // Controls Nav Bar Scrolling
     const location = useLocation();
+    // Scroll to Section and adjusts for mobile screen size
     const scrollToSection = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      };
+      const element = document.getElementById(id);
+      if (element) {
+        const navbarHeight = document.querySelector('nav').offsetHeight;
+        const offset = element.offsetTop - navbarHeight;
+        window.scrollTo({ top: offset, behavior: 'smooth' });
+      }
+    };
+    
 
 return (
     <div className="bg-gray-700">

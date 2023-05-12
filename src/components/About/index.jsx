@@ -45,6 +45,7 @@ export default function About() {
 
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-gray-900" id="about-section">{/* Needed for Nav Bar Scroll */}
+
         {/* Column one area */}
         <div className="flex flex-col justify-center p-8 sm:ml-8">
           {/* Header */}

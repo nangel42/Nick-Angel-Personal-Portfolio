@@ -6,9 +6,7 @@ import LinkIcon from '../../assets/images/linkIcon.png';
 
 export default function Projects() {
     return (
-      <div className="bg-gray-900">
-        {/* Needed for Nav Bar Scroll */}
-        <br id="project-section"/>
+      <div className="bg-gray-900" id="project-section">{/* Needed for Nav Bar Scroll */}
         <div className="text-center mt-8">
           {/* Header */}
           <h1 className="text-5xl md:text-5xl font-bold text-center">
