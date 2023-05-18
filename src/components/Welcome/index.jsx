@@ -28,11 +28,9 @@ export default function Welcome() {
           Nick's Personal Website
         </p>
         {/* Message Info */}
-        <div className={`text-xl m-8 mb-5 transition-opacity duration-1000 ease-in-out delay-700 ${boot ? "opacity-100" : "opacity-0"}`}>
-            I am a full-stack web developer with a passion for creating web applications that are both functional and beautiful.
-        </div>
         <div className={`text-xl m-8 transition-opacity duration-2000 ease-in-out delay-1000 ${boot ? "opacity-100" : "opacity-0"}`}>
-            I am seeking new opportunities to utilize my skills and expertise to create exceptional web applications !
+        I'm a passionate full-stack web developer looking for opportunities to apply my skills <br />
+        in creating exceptional, functional, and visually appealing web applications.
         </div>
       </div>
 

@@ -44,10 +44,10 @@ export default function About() {
   };
 
     return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 bg-gray-900" id="about-section">{/* Needed for Nav Bar Scroll */}
+      <div className="grid grid-cols-1 md:grid-cols-2 bg-gray-900" id="about-section">{/* Needed for Nav Bar Scroll */}
 
         {/* Column one area */}
-        <div className="flex flex-col justify-center p-8 sm:ml-8">
+        <div className="flex flex-col justify-center p-8 mb-20 sm:ml-8">
           {/* Header */}
           <h1 className="text-5xl md:text-5xl font-bold text-blue-400 text-center mb-4">
             <span style={{ color: '#D4D4D4' }}>{'<'}</span>
@@ -65,24 +65,13 @@ export default function About() {
           {/* About Me */}
           <div className= "max-w-6xl mx-auto bg-gray-300 bg-opacity-60 rounded-md p-4 my-8">
             <p className="text-xl text-black mb-8">
-              My name is Nicolas Angel and I am a Full Stack Software Engineer currently residing in sunny Arizona. 
-              In fall of 2019, I graduated from the University of Arizona with a bachelor's degree in Neuroscience and Cognitive Science. 
-              After graduation, I pursued a career in the medical field and worked as a behavioral health technician at Banner Health. 
-              However, after working throughout the pandemic, I felt the need to explore other career options.
+            My name is Nicolas Angel, a Full Stack Software Engineer from Arizona, with a background in Neuroscience and Cognitive Science. 
+            After working in the medical field, I decided to explore a career in the tech industry due to my lifelong fascination with technology's evolution.
             </p>
 
             <p className="text-xl text-black mb-8">
-              Growing up, I always had a fascination with technology and its advancements. 
-              From flip phones to smartphones and from Gameboy's to Xbox 360, I loved seeing the evolution of technology and its capabilities. 
-              This inspired me to pursue a career in the tech industry and become a software engineer. 
-              I am a graduate of General Assembly's Software Engineering Immersive Bootcamp and have experience with 
-              technologies such as JavaScript, Reactjs, MongoDB, Python, and Django.
-            </p>
-
-            <p className="text-xl text-black mb-8">
-              As a Full Stack Software Engineer, I am currently seeking roles in Full Stack and Frontend Software Development. 
-              My passion for technology and software engineering drives me to constantly learn and work on new and exciting projects. 
-              I am excited to contribute my skills and expertise to innovative and impactful software development initiatives.
+            With experience in JavaScript, Reactjs, MongoDB, Python, and Django, I graduated from General Assembly's Software Engineering Immersive Bootcamp 
+            and now seek roles in Full Stack and Frontend Software Development to contribute to innovative projects and make an impact.
             </p>
           </div>
         </div>
