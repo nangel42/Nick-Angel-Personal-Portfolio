@@ -40,10 +40,11 @@ export default function Projects() {
                 </h1>
                 {/* Description */}
                 <p className="flex justify-center text-black text-xl m-5">
-                  Looking for a customizable Star Wars trivia experience? Check out "Star Trivia!" - a MERN stack app with user-selected 
-                  and pre-selected questions for all ages. Powered by MongoDB and SWAPI, it offers study resources and immersive access to Star Wars data, 
-                  making it ideal for fans and casual users alike. Try it now and put your knowledge to the test in a galaxy far, far away!
-                </p>  
+                  Discover "Star Trivia!" - a MERN stack app showcasing my expertise in React, JavaScript, MongoDB, and Express. 
+                  This immersive application offers a customizable Star Wars trivia experience with seamless CRUD functionality, 
+                  SWAPI integration for universe information, and a captivating journey through the galaxy. 
+                  Click below to explore the site and put your knowledge to the test!
+                </p>
                 {/* Technology Used */}
                 <p className="flex flex-wrap justify-center text-black text-xl m-5">
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">ANT Design</span>
@@ -79,16 +80,16 @@ export default function Projects() {
                 </h1>
                 {/* Description */}
                 <p className="flex justify-center text-black text-xl m-5">
-                  Brick by Brick offers an engaging and user-friendly experience for browsing Lego sets, 
-                  focusing on sustainability by utilizing users' existing Lego parts for new builds. It promotes cost-effectiveness, 
-                  reducing the need to purchase sets at high reseller prices, and emphasizes convenience with a user-friendly interface. 
-                  The platform also fosters a sense of community by allowing users to explore and share their build options with others.
+                  "Brick by Brick" was a collaborative group project where we utilized Django, Python 3, JavaScript, HTML5, Materialize CSS, Heroku, 
+                  and PostgreSQL for full-stack development. This dynamic platform integrated the Brick-links API, empowering users to log in, 
+                  search, compare LEGO sets, and track their owned pieces. With a focus on sustainability and cost-effectiveness, 
+                  it encouraged users to use their existing Lego parts for new builds while fostering a sense of community through shared build options.
                 </p>
                 {/* Technology Used */}
                 <p className="flex flex-wrap justify-center text-black text-xl m-5">
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Django</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Python 3</span>
-                  <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Javascript</span>
+                  <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">JavaScript</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">HTML5</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Materialize CSS</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Heroku</span>
@@ -118,17 +119,16 @@ export default function Projects() {
                 </h1>
                 {/* Description */}
                 <p className="flex justify-center text-black text-xl m-5">
-
-                Julio's Mexican Recipes is a MEN stack application that offers a user-friendly platform for discovering and 
-                sharing authentic Mexican recipes. With its comprehensive recipe database, personalized profiles, 
-                and community features, users can easily explore, save, and connect with fellow food enthusiasts. 
-                Whether you're looking to spice up your cooking routine or connect with a vibrant culinary community, Julio's Mexican Recipes has you covered.
+                  I built Julio's Mexican Recipes, a MEN stack app utilizing EJS, MongoDB, JavaScript, HTML5, CSS, Heroku, and Express. 
+                  It offers a user-friendly platform for discovering and sharing authentic Mexican recipes, with a comprehensive 
+                  recipe database and community features for connecting with food enthusiasts. Showcase your culinary skills and connect 
+                  with fellow foodies on Julio's Mexican Recipes.
                 </p>
                 {/* Technology Used */}
                 <p className="flex flex-wrap justify-center text-black text-xl m-5">
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">EJS</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">MongoDB</span>
-                  <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Javascript</span>
+                  <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">JavaScript</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">HTML5</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">CSS</span>
                   <span className="bg-blue-400 p-2 mb-2 mr-2 md:mr-4">Heroku</span>
