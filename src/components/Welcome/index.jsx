@@ -28,9 +28,8 @@ export default function Welcome() {
           Nick's Personal Website
         </p>
         {/* Message Info */}
-        <div className={`text-xl m-8 transition-opacity duration-2000 ease-in-out delay-1000 ${boot ? "opacity-100" : "opacity-0"}`}>
-        I'm a passionate full-stack web developer looking for opportunities to apply my skills <br />
-        in creating exceptional, functional, and visually appealing web applications.
+        <div className={`text-xl m-5 transition-opacity duration-2000 ease-in-out delay-1000 ${boot ? "opacity-100" : "opacity-0"}`}>
+          
         </div>
       </div>
 

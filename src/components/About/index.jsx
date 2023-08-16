@@ -83,10 +83,10 @@ export default function About() {
           >
           </div>
           {/* Buttons for Carousel */}
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl text-white'>
+          <div className='hidden group-hover:block absolute top-[50%] translate-y-[-50%] left-5 text-2xl text-white'>
             <BsChevronCompactLeft onClick={prevImg} size={30}/>
           </div>
-          <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl text-white'>
+          <div className='hidden group-hover:block absolute top-[50%] translate-y-[-50%] right-5 text-2xl text-white'>
             <BsChevronCompactRight onClick={nextImg} size={30}/>
           </div>
           {/* Dots for Carousel */}

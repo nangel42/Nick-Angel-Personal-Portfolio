@@ -1,5 +1,6 @@
 import GitHub from '../../assets/images/GitHub-logo-white.png';
 import LinkedIn from "../../assets/images/linkedin.png";
+import Resume from '../../assets/docs/Nicolas Angel Resume 3-23.pdf'
 
 export default function Contact() {
     return (
@@ -41,9 +42,14 @@ export default function Contact() {
               </p>
             </div>
             {/* Email Button */}
-            <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
+            <a href="mailto:az_nick_angel@ymail.com" className="inline-block px-4 py-2 mt-4 mr-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600">
               Email
             </a>
+            {/* Resume Button */}
+              <a href={Resume} className="inline-block px-4 py-2 mt-4 ml-4 text-lg font-semibold text-white bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600"
+               target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
           </div>
           {/* Social Media Icons */}
           <div className="flex justify-center mt-8 mb-10">

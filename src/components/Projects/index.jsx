@@ -136,15 +136,15 @@ export default function Projects() {
                 </p>
                 {/* Icon Links */}
                 <div className="flex justify-center space-x-4 md:space-x-8">
-                  <a href="https://github.com/nangel42/Julios-Mexican-Recipes" target="_blank">
+                  <a href="https://github.com/nangel42/julios-mexican-recipes" target="_blank">
                     <img src={GitHub} className="my-4 object-contain w-20 h-10 md:w-20 md:h-12" alt="Julios Mexican Recipes GitHub" />
                   </a>
-                  <a href="https://julios-mexican-recipes.herokuapp.com/" target="_blank">
+                  <a href="https://project-jmr-c23ef061641e.herokuapp.com/" target="_blank">
                     <img src={LinkIcon} className="my-4 object-contain w-10 h-10 md:w-20 md:h-12" alt="Julios Mexican Recipes Link" />
                   </a>
                 </div>
                 {/* Link to Deployed App With Picture*/}
-                <a href="https://julios-mexican-recipes.herokuapp.com/" target="_blank">
+                <a href="https://project-jmr-c23ef061641e.herokuapp.com/" target="_blank">
                   <img src={JMR} className="mx-auto object-contain w-full md:w-3/4 h-auto md:h-3/4" alt="Julio's Mexican Recipes" />
                 </a>
               </div>
