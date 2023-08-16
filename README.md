@@ -11,3 +11,5 @@ https://www.codementor.io/@giorgiasambrotta/hamburger-menu-with-react-and-tailwi
 https://www.youtube.com/watch?v=74ys-dT94mA&t=635s
 
 https://www.youtube.com/watch?v=tXlZCW26bto
+
+https://www.youtube.com/watch?v=yo2bMGnIKE8&list=LL&index=10
