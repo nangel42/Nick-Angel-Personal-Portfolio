@@ -1,6 +1,6 @@
 import GitHub from '../../assets/images/GitHub-logo-white.png';
 import LinkedIn from "../../assets/images/linkedin.png";
-import Resume from '../../assets/docs/Nicolas Angel Resume 3-23.pdf'
+import Resume from '../../assets/docs/Nicolas Angel Resume 8-23.pdf'
 
 export default function Contact() {
     return (
